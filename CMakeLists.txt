@@ -4,6 +4,7 @@ project(rosx_introspection LANGUAGES CXX VERSION 1.0.2)
 
 
 option(CMAKE_POSITION_INDEPENDENT_CODE "Set -fPIC" ON)
+set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 
 include(cmake/CPM.cmake)
 
